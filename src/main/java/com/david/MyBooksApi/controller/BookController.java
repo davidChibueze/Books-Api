@@ -1,21 +1,16 @@
 package com.david.MyBooksApi.controller;
 
 import com.david.MyBooksApi.dto.request.BookRequest;
-
-import com.david.MyBooksApi.model.Book;
-
 import com.david.MyBooksApi.dto.response.Response;
-
+import com.david.MyBooksApi.model.Book;
 import com.david.MyBooksApi.model.Category;
 import com.david.MyBooksApi.service.BookService;
-
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-
 import java.util.List;
 
 @RequiredArgsConstructor

@@ -1,7 +1,7 @@
 package com.david.MyBooksApi.dto.request;
 
 
-import lombok.*;
+import lombok.Data;
 
 @Data
 public class BookRequest {

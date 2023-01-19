@@ -8,10 +8,9 @@ import com.david.MyBooksApi.model.Book;
 import com.david.MyBooksApi.model.Category;
 import com.david.MyBooksApi.repository.BookRepository;
 import com.david.MyBooksApi.repository.CategoryRepository;
-import com.david.MyBooksApi.util.Util;
 import com.david.MyBooksApi.util.ResponseFormatter;
+import com.david.MyBooksApi.util.Util;
 import lombok.RequiredArgsConstructor;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +19,8 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static com.david.MyBooksApi.util.ResponseCode.*;
+import static com.david.MyBooksApi.util.ResponseCode.COMPLETED_SUCCESSFULLY;
+import static com.david.MyBooksApi.util.ResponseCode.NO_CONTENT;
 
 
 @RequiredArgsConstructor
