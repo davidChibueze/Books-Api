@@ -1,23 +1,20 @@
-2022-12-22 11:30:33.911  INFO 24992 --- [main] c.d.MyBooksApi.MyBooksApiApplication     : Starting MyBooksApiApplication using Java 1.8.0_202 on ETZ-NWAG-TECH with PID 24992 (C:\Users\david.nwagwu\Desktop\PROJECT FOLDER\MyBooksApi\target\classes started by David.Nwagwu in C:\Users\david.nwagwu\Desktop\PROJECT FOLDER\MyBooksApi)
-2022-12-22 11:30:33.915  INFO 24992 --- [main] c.d.MyBooksApi.MyBooksApiApplication     : No active profile set, falling back to 1 default profile: "default"
-2022-12-22 11:30:34.789  INFO 24992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-22 11:30:34.856  INFO 24992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2022-12-22 11:30:35.485  INFO 24992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
-2022-12-22 11:30:35.498  INFO 24992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-12-22 11:30:35.498  INFO 24992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-12-22 11:30:35.783  INFO 24992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-12-22 11:30:35.784  INFO 24992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1810 ms
-2022-12-22 11:30:35.924  INFO 24992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-22 11:30:35.981  INFO 24992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2022-12-22 11:30:36.239  INFO 24992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-12-22 11:30:36.343  INFO 24992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-12-22 11:30:36.912  INFO 24992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-12-22 11:30:36.928  INFO 24992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-12-22 11:30:37.777  INFO 24992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-22 11:30:37.785  INFO 24992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-22 11:30:38.143  WARN 24992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-22 11:30:38.448  INFO 24992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8010 (http) with context path ''
-2022-12-22 11:30:38.457  INFO 24992 --- [main] c.d.MyBooksApi.MyBooksApiApplication     : Started MyBooksApiApplication in 5.358 seconds (JVM running for 6.347)
-2022-12-22 11:30:52.669  INFO 24992 --- [http-nio-8010-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-22 11:30:52.670  INFO 24992 --- [http-nio-8010-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-12-22 11:30:52.671  INFO 24992 --- [http-nio-8010-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-22 23:45:44.059  INFO 8236 --- [main] c.d.MyBooksApi.MyBooksApiApplication     : Starting MyBooksApiApplication using Java 1.8.0_202 on ETZ-NWAG-TECH with PID 8236 (C:\Users\david.nwagwu\Desktop\PROJECT FOLDER\MyBooksApi\target\classes started by David.Nwagwu in C:\Users\david.nwagwu\Desktop\PROJECT FOLDER\MyBooksApi)
+2023-01-22 23:45:44.070  INFO 8236 --- [main] c.d.MyBooksApi.MyBooksApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-22 23:45:44.904  INFO 8236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-22 23:45:44.967  INFO 8236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2023-01-22 23:45:45.627  INFO 8236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
+2023-01-22 23:45:45.637  INFO 8236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-22 23:45:45.637  INFO 8236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-22 23:45:45.896  INFO 8236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-22 23:45:45.897  INFO 8236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1768 ms
+2023-01-22 23:45:46.041  INFO 8236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-22 23:45:46.117  INFO 8236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-01-22 23:45:46.433  INFO 8236 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-22 23:45:46.594  INFO 8236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-22 23:45:50.745  INFO 8236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-22 23:45:50.772  INFO 8236 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-01-22 23:45:55.566  INFO 8236 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-22 23:45:55.594  INFO 8236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-22 23:45:56.067  WARN 8236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-22 23:45:56.402  INFO 8236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8010 (http) with context path ''
+2023-01-22 23:45:56.417  INFO 8236 --- [main] c.d.MyBooksApi.MyBooksApiApplication     : Started MyBooksApiApplication in 12.952 seconds (JVM running for 14.279)

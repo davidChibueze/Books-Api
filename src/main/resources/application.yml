@@ -12,9 +12,10 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3310/MyBookApi?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false&serverTimezone=Africa/Lagos
+#    url: jdbc:mysql://localhost:3310/MyBookApi?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false&serverTimezone=Africa/Lagos
+    url: jdbc:mysql://root:GnMsyZgHJfkj01oQpClt@containers-us-west-20.railway.app:5908/railway?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false&serverTimezone=Africa/Lagos
     username: root
-    password: password
+    password: GnMsyZgHJfkj01oQpClt
     driverClassName: com.mysql.cj.jdbc.Driver
 
   jpa:
