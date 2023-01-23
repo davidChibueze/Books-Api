@@ -13,7 +13,7 @@ import java.util.List;
 
 
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1")
 
