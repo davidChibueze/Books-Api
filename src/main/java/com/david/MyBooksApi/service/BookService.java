@@ -122,6 +122,8 @@ public class BookService {
         }
         Book book = bookOptional.get();
         book.setTitle(bookRequest.getTitle());
+        book.setAuthor(bookRequest.getAuthor());
+        book.setPublishedOn(bookRequest.getPublishedOn());
 
         return ResponseFormatter.getResponse(bookRepository.save(book),COMPLETED_SUCCESSFULLY);
     }
