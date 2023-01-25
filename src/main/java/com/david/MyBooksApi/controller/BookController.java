@@ -14,10 +14,10 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RequiredArgsConstructor
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/v1")
 public class BookController {
-
 
     private final BookService bookService;
 
